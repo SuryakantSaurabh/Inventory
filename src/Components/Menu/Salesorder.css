@@ -1,0 +1,52 @@
+.sales-order-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    font-size: medium;
+    margin-top: 20px;
+  }
+  
+  .sales-order-table th,
+  .sales-order-table td {
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .sales-order-table th {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .sales-order-table th i {
+    font-size: 14px;
+    vertical-align: middle;
+    margin-left: 5px;
+  }
+  
+  .sales-order-table th:hover {
+    background-color: #ffcc00;
+    color: #333;
+  }
+  
+  .sales-order-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Search input style */
+  .sales-order-search {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    font-size: 14px;
+  }
+  
+  /* Container style */
+  .sales-order-container {
+    margin: 20px;
+  }
+  

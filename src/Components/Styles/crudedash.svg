@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400">
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="400" fill="#ededed" />
+  
+  <!-- Crude oil barrels -->
+  <rect x="50" y="50" width="80" height="100" fill="#FFD700" opacity="0.2">
+    <animate attributeName="y" from="50" to="70" dur="4s" repeatCount="indefinite" />
+  </rect>
+  <rect x="150" y="50" width="80" height="100" fill="#FFD700" opacity="0.2">
+    <animate attributeName="y" from="50" to="70" dur="4s" repeatCount="indefinite" begin="1s" />
+  </rect>
+  <rect x="250" y="50" width="80" height="100" fill="#FFD700" opacity="0.2">
+    <animate attributeName="y" from="50" to="70" dur="4s" repeatCount="indefinite" begin="2s" />
+  </rect>
+  <rect x="350" y="50" width="80" height="100" fill="#FFD700" opacity="0.2">
+    <animate attributeName="y" from="50" to="70" dur="4s" repeatCount="indefinite" begin="3s" />
+  </rect>
+  
+  <!-- Line chart -->
+  <path d="M100 300 L200 250 L300 200 L400 300 L500 250 L600 300"
+    fill="none"
+    stroke="#007bff"
+    stroke-width="2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    opacity="0.2"
+  >
+    <animate attributeName="d" from="M100 300 L200 250 L300 200 L400 300 L500 250 L600 300" 
+             to="M100 250 L200 200 L300 250 L400 200 L500 300 L600 250"
+             dur="4s" repeatCount="indefinite" />
+  </path>
+</svg>

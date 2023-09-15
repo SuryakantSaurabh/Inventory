@@ -1,0 +1,53 @@
+.sales-order-detail-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    font-size: medium;
+    margin-top: 20px;
+   
+  }
+  
+  .sales-order-detail-table th,
+  .sales-order-detail-table td {
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .sales-order-detail-table th {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .sales-order-detail-table th i {
+    font-size: 14px;
+    vertical-align: left;
+    margin-left: 5px;
+  }
+  
+  .sales-order-detail-table th:hover {
+    background-color: #ffcc00;
+    color: #333;
+  }
+  
+  .sales-order-detail-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Search input style */
+  .sales-order-detail-search {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    font-size: 14px;
+  }
+  
+  /* Container style */
+  .sales-order-detail-container {
+    margin: 20px;
+  }
+  

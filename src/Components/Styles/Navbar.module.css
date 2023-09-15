@@ -1,0 +1,58 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0; /* Set right to 0 to make it take the entire width */
+    background-color: #e6b800; /* Whitish-grey background color */
+    display: flex;
+    justify-content: space-between; /* Spread content to the ends horizontally */
+    align-items: center; /* Center the content vertically */
+    padding: 10px;
+    z-index: 1; /* Ensure the navbar is above other content */
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    border-radius: 50%; /* Make the logo round */
+    width: 50px; /* Adjust the size of the round logo */
+    height: 45px; /* Adjust the size of the round logo */
+    margin-right: 20px;
+    margin-left: 20px; /* Add spacing between the logo and company name */
+  }
+  
+  .company-name {
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff; /* Text color for the company name */
+  }
+  
+  .logout-button {
+    background-color: #e6b800;
+    color: #333; /* Text color for the logout button */
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  
+  .logout-button:hover {
+    text-decoration: underline;
+    color: #e77474; /* Red color for the logout button on hover */
+  }
+  
+  /* Navbar.module.css */
+
+.admin-icon {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin-right: 2rem;
+  background-color: #2a2b25; /* You can change the background color */
+  color: #fff; /* Text color */
+  border-radius: 50%; /* Makes it a circle */
+  text-align: center;
+  line-height: 30px; /* Vertically center the content */
+  font-weight: bold;
+}

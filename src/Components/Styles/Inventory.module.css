@@ -1,0 +1,108 @@
+/* Inventory.module.css */
+
+/* Table styles */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    font-size: medium;
+  }
+  
+  .table th,
+  .table td {
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .table th {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .table th i {
+    font-size: 14px;
+    vertical-align: middle;
+    margin-left: 5px;
+  }
+  
+  .table th:hover {
+    background-color: #ffcc00;
+    color: #333;
+  }
+  
+  .table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Button styles */
+  .deleteBtn {
+    background-color: transparent;
+    color:#333;
+    border: 1px solid  #ffcc00;
+    padding: 5px 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  }
+  
+  .deleteBtn:hover {
+    background-color: #ff0000;
+    color: #fff;
+    border-color: #ff0000;
+  }
+  
+  .addBtn {
+    background-color: #ffcc00;
+    color: #333;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .addBtn:hover {
+    background-color: #333;
+    color: #ffcc00;
+  }
+  
+  /* Search input style */
+  input[type="text"],
+  input[type="number"],
+  input[type="datetime-local"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    font-size: 14px;
+  }
+  
+  /* Add New Inventory Item section */
+  .addInventoryHeader {
+    margin-top: 20px;
+  }
+  
+  /* Navbar styles */
+  .inventoryHeader {
+    /* position: fixed;
+    top: 0;
+    left: 0; */
+    width: 100%; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    z-index: 1;
+  }
+  
+  .inventoryHeader .company-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .addin{
+    margin-bottom: 3rem;
+  }
